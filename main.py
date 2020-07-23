@@ -81,25 +81,35 @@ def main():
 
     Input = int(input("Enter your choice: "))
 
+    #   enter 3 for exit
     if (Input == 3):
         exit()
+    #   enter 1 for password generation
     elif (Input == 1):
         GeneratePassword()
         afterRun()
+    #enter 2 for secure existing password
     elif (Input == 2):
         SecureExistingPassword()
         afterRun()
+    #   if 1, 2, 3 is not inserted ask again for input
     else:
         print("Invalid Input")
-        afterRun()
+        main()
 
 def afterRun():
         print("Run again?\n1. Yes\n2. No\nEnter your choice: ", end="")
         afterRun = input()
+        #   enter 1 to re-run program
         if afterRun == '1':
             main()
-        else:
+        #   enter 2 to exit program
+        if afterRun == '2':
             exit()
+        #   if 1, 2 is not entered shows invalid input and ask for input again
+        else:
+            print("Invalid Input")
+            main()
 
 #   main program begeins here
 if __name__== "__main__":
