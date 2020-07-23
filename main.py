@@ -60,37 +60,47 @@ def SecureExistingPassword():
               ('I', '!'), ('m', 'w'), ('M', 'W'), ('o', '0'), ('O', '0'), ('s', '$'), ('S', '$'), ('and', '&'),
               ('And', '&'), ('AND', '&'))
 
-    #   make a function that will return secure password
-    #   this function take existing password as a input
-    #   replace existing password character with predefined set of character
-    def generateSecurePassword(existingPassword):
-        #   a = tauple first character
-        #   b = tauple second character
-        for a, b in SECURE:
-            #   replace() is used to replace a with b
-            existingPassword = existingPassword.replace(a, b)
-        #   return replaced character
-        return existingPassword
+    #   take existing password as input
+    existingPassword = input("Enter Your Existing Password: ")
 
-    if __name__ == "__main__":
-        #   take existing password as input
-        existingPassword = input("Enter Your Existing Password: ")
+    #   a = tauple first character
+    #   b = tauple second character
+    for a, b in SECURE:
+        #   replace() is used to replace a with b
+        existingPassword = existingPassword.replace(a, b)
+    
+    #   print secure password
+    print(f"Your Secured Password is: {existingPassword}")
 
-        #   call generateSecurePassword function with existingPassword
-        existingPassword = generateSecurePassword(existingPassword)
+#   this main() function will ask for input
+def main():
+    print("What do you want to do?")
+    print("1. Make a new password: ")
+    print("2. Secure existing password")
+    print("3. Exit")
 
-        #   print secure password
-        print(f"Your Secured Password is: {existingPassword}")
+    Input = int(input("Enter your choice: "))
 
-print("What do you want to do?")
-print("1. Make a new password: ")
-print("2. Secure existing password")
+    if (Input == 3):
+        exit()
+    elif (Input == 1):
+        GeneratePassword()
+        afterRun()
+    elif (Input == 2):
+        SecureExistingPassword()
+        afterRun()
+    else:
+        print("Invalid Input")
+        afterRun()
 
-Input = int(input("Enter your choice: "))
+def afterRun():
+        print("Run again?\n1. Yes\n2. No\nEnter your choice: ", end="")
+        afterRun = input()
+        if afterRun == '1':
+            main()
+        else:
+            exit()
 
-if (Input == 1):
-    GeneratePassword()
-elif (Input == 2):
-    SecureExistingPassword()
-else:
-    print("Invalid Input")
+#   main program begeins here
+if __name__== "__main__":
+    main()
