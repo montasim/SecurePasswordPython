@@ -5,7 +5,7 @@ Despite its widely-discussed shortcomings, text password authentication is widel
 Help people to create a strong password.
 
 # Objectives:
-1. Create a strong password(maximum 94 character)
+1. Create a strong password(<b>maximum 94 character</b>)
 2. Make existing password Secure
 
 # Methodology:
