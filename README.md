@@ -33,8 +33,15 @@
 <br>
 <br>
 
-# Name: SecurePass
-Despite its widely-discussed shortcomings, text password authentication is widely used to authenticate users to online services. Many attempts have been made to replace simple password authentication, e.g. using biometrics, tokens, and multifactor authentication. However, single-factor password-based authentication remains very widely used. Moreover, in recent years the number of widely-used password-protected services has grown in turn increasing the number of passwords users are expected to remember. There is a range of issues associated with the use of text pass-words. These issues can be categorized as either user-related or online.
+<h2 align="left">Name: SecurePass</h2>
+
+<p align="left">
+  <img align="center" alt="status" src="https://forthebadge.com/images/badges/built-with-love.svg" />
+  <img align="center" alt="Gender" src="https://forthebadge.com/images/badges/made-with-python.svg" />
+</p>
+
+
+<p> Despite its widely-discussed shortcomings, text password authentication is widely used to authenticate users to online services. Many attempts have been made to replace simple password authentication, e.g. using biometrics, tokens, and multifactor authentication. However, single-factor password-based authentication remains very widely used. Moreover, in recent years the number of widely-used password-protected services has grown in turn increasing the number of passwords users are expected to remember. There is a range of issues associated with the use of text pass-words. These issues can be categorized as either user-related or online. </p>
 
 # The reason behind the selection of this topic:
 Help people to create a strong password.
