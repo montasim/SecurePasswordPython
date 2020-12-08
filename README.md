@@ -47,7 +47,7 @@
 
 <h2 align="left">Program Stats</h2>
 <p align="center">
-  <img alt="Montasim's Github Stats" src = "https://github-readme-stats.vercel.app/api/pin/?username=montasim&repo=SAM-AI&show_icons=true&theme=radical&line_height=27&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite">
+  <img alt="Montasim's Github Stats" src = "https://github-readme-stats.vercel.app/api/pin/?username=montasim&repo=SecurePasswordPython&show_icons=true&theme=radical&line_height=27&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite">
 </p>
 
 <br>
