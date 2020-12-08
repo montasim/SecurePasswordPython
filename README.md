@@ -43,6 +43,15 @@
 
 <p> Despite its widely-discussed shortcomings, text password authentication is widely used to authenticate users to online services. Many attempts have been made to replace simple password authentication, e.g. using biometrics, tokens, and multifactor authentication. However, single-factor password-based authentication remains very widely used. Moreover, in recent years the number of widely-used password-protected services has grown in turn increasing the number of passwords users are expected to remember. There is a range of issues associated with the use of text pass-words. These issues can be categorized as either user-related or online. </p>
 
+<br>
+
+<h2 align="left">Program Stats</h2>
+<p align="center">
+  <img alt="Montasim's Github Stats" src = "https://github-readme-stats.vercel.app/api/pin/?username=montasim&repo=SAM-AI&show_icons=true&theme=radical&line_height=27&bg_color=0,EC6C6C,FFD479,FFFC79,73FA79&theme=graywhite">
+</p>
+
+<br>
+
 ## The reason behind the selection of this topic:
 Help people to create a strong password.
 
